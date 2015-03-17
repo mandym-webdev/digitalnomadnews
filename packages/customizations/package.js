@@ -66,6 +66,8 @@ Package.onUse(function (api) {
     'lib/client/templates/customPostTitle.html',
     'lib/client/templates/externalPostsUrl.html',
     'lib/client/templates/new-post-body.html',
+    'lib/client/templates/new-post-discuss.html',
+    'lib/client/templates/new-post-upvote.html',
     'lib/client/kepler.js',
     'lib/client/stylesheets/custom.scss'
   ], ['client']);

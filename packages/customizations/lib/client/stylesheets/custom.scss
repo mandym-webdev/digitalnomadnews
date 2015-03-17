@@ -1,21 +1,35 @@
 body {
-  background: #9C9F84;
+  background: white;
 }
 
+body, textarea, input, button, input[type="submit"], input[type="button"]{
+  font-family: 'Rambla', sans-serif;
+}
 
-
-/*.post-url {
-  @extend .has-shadow;
-  border-radius: 3px;
-  margin-bottom: 10px;
+.header{
+  font-family: 'Sanchez', serif;
   background: white;
-  padding: 20px;
-  margin-top: 20px;
-/*  font-size: 16px;
-  .list & {
-    display: none;
-  }
-}*/
+  height: 100px;
+  border-bottom: 5px black solid;
+}
+
+.header, .header .logo a, .header .logo a:visited{
+  color: black;        
+}
+
+.header .logo{
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.post-rank-inner{
+  display: none;
+}
+
+.discuss-link .sr-only{
+  display: none;
+}
+
 
 .post-url {
   padding-bottom: 10px;
